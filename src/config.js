@@ -4,10 +4,10 @@ exports.getConfigFields = function () {
 		{
 			type: 'textinput',
 			id: 'host',
-			label: 'Target IP',
+			label: 'Server IP or Hostname',
 			width: 6,
 			default: '127.0.0.1',
-			regex: this.REGEX_IP,
+			regex: this.REGEX_HOSTNAME,
 		},
 		{
 			type: 'textinput',

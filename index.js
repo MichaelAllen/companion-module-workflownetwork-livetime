@@ -112,7 +112,6 @@ class instance extends instance_skel {
 	/**
 	 * Send a request to the API
 	 * @param {String} cmd The endpoint to call
-	 * @param {Array-String} parmas The URL parameters to include
 	 * @access private
 	 * @since 1.0.0
 	 */
